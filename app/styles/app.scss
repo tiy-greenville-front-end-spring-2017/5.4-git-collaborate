@@ -21,5 +21,27 @@ h1 {
 }
 
 body{
-  background-color: yellow;
+  color: orange;
+  // background-color: yellow;
+}
+
+header{
+  background-color: #ddd;
+  border-bottom: 1px solid #bbb;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  ul{
+    list-style: none;
+  }
+}
+
+.container1{
+  background-color: green;
+}
+
+.container2{
+  background-color: orange;
 }
