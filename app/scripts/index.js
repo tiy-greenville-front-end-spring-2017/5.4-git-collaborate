@@ -1,12 +1,12 @@
 var $ = require('jquery');
 var $audio = $('#audio');
 
-var splash = require('../templates/splash.hbs');
-var fight = require('../templates/fight.hbs');
+var splash = require('../templates/get_hip.hbs');
+var fight = require('../templates/puppy_list.hbs');
 
 $('.app').html(splash());
 
-$('.js-start-game').click(function(event){
+$('.js-get-puppies').click(function(event){
   $('.app').html(fight());
 });
 
